@@ -1,0 +1,6 @@
+valor = float(input('o valor do produto e?'))
+des = int(input('o valor do desconto e :'))
+al = int(input('o valor do almento e'))
+nvlrcdes = valor - (valor * des /100)
+nvlrcal = valor + (valor * al /100)
+print('O valor do produto e de {:.2f} R$ o desconto e de {}% e o novo valor e de{:.2f}\n caso deseja parcelar o produto terra almento de {}% sendo o novo valor de {:.2f} R$'.format(valor,des,nvlrcdes,al,nvlrcal))
